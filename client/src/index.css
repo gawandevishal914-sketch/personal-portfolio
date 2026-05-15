@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #111827;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: cyan;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: cyan;
+}
+
+/* Hero Section */
+
+.hero {
+  text-align: center;
+  margin-top: 120px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero h2 {
+  color: cyan;
+  margin-top: -20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.7;
+}
